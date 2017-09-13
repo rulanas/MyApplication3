@@ -36,7 +36,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, arrCountries);
         button5.setOnClickListener(this);
 
-        IvCountries = (ListView) findViewById(R.id.IvCounties);
+        IvCountries = (ListView) findViewById(R.id.IvCountries);
         IvCountries.setAdapter(adapter);
         IvCountries.setOnItemLongClickListener((AdapterView.OnItemLongClickListener) this);
     }
